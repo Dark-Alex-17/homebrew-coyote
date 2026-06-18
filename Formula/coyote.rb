@@ -4,16 +4,16 @@ class Coyote < Formula
   desc "All-in-one, batteries included LLM CLI tool"
   homepage "https://github.com/Dark-Alex-17/coyote"
   if OS.mac? and Hardware::CPU.arm?
-    url "https://github.com/Dark-Alex-17/coyote/releases/download/v0.6.0/coyote-aarch64-apple-darwin.tar.gz"
-    sha256 "b9cda92716012127b8b5238150ff2fd137830e64039cc7970f62d6f34b577dd4"
+    url "https://github.com/Dark-Alex-17/coyote/releases/download/v0.7.0/coyote-aarch64-apple-darwin.tar.gz"
+    sha256 "608d9b60bc13a60de3d44777134a21121661a97996a6d3544ac1477b5482d3a7"
   elsif OS.mac? and Hardware::CPU.intel?
-    url "https://github.com/Dark-Alex-17/coyote/releases/download/v0.6.0/coyote-x86_64-apple-darwin.tar.gz"
-    sha256 "a3ca2b104fe7b70107c64a077b28b7b6700dcd3e590876f70042bc5ddc2047dc"
+    url "https://github.com/Dark-Alex-17/coyote/releases/download/v0.7.0/coyote-x86_64-apple-darwin.tar.gz"
+    sha256 "6024c5aa8f092a04e5240a96c8f41f5d96313269c021aa75bcd9124c80917f2d"
   else
-    url "https://github.com/Dark-Alex-17/coyote/releases/download/v0.6.0/coyote-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "67d8e7e4bda06de1819ad4a4b38a087ab9ad852afdd6d630607c0068981c74a3"
+    url "https://github.com/Dark-Alex-17/coyote/releases/download/v0.7.0/coyote-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "20f5e2b4a0f637174616b3fcfd5b61cca60d1dd18f1d43e783f2c974fa744cb1"
   end
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   def install
